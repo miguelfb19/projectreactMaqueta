@@ -371,13 +371,13 @@ input[type="text"]:hover, textarea:hover{
 
 /*Se usan los MediaQuery*/
 
-@media (max-width: 1277px){/*Desde la anchura 0px hasta 1488px de pantalla me aplica los estilos siguientes*/
+@media (max-width: 1277px){
     .center{
         width: 85%;
     }
 }
 
-@media (max-width: 1178px){/*Desde la anchura 0px hasta 1488px de pantalla me aplica los estilos siguientes*/
+@media (max-width: 1178px){
     .center{
         width: 95%;
     }
@@ -412,6 +412,13 @@ input[type="text"]:hover, textarea:hover{
         width: 75%;
     }
 
+    #logo {
+        width: auto;
+    }
+
+    #menu {
+        width: auto;
+    }
 }
 
 @media (max-width: 840px){
@@ -427,9 +434,13 @@ input[type="text"]:hover, textarea:hover{
 
     #logo{
        float: none; 
-       width: 240px;
+       width: 300px;
        margin: 0px auto;
        margin-top: 20px;
+    }
+
+    #logo img{
+        height: 50px;
     }
 
     #content{
